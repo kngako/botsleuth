@@ -56,4 +56,6 @@ typings/
 
 # dotenv environment variables file
 .env
-
+data/bot-list.json
+data/bot-list-short.json
+config/development.json
