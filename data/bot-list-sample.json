@@ -1,0 +1,35 @@
+[
+	// The site runs off data that looks like this..
+	{
+		"user.screen_name": "gupatbot1",
+		"user_followers_count": "56",
+		"user_friends_count": "385",
+		"user_favourites_count": "7",
+		"user_listed_count": "0",
+		"user_id": "198423380",
+		"document_id": "5.5621946519161979E+18",
+		"gupta_terms_all": "7",
+		"gupta_terms_reduced": "6",
+		"gupta_terms_diff": "1",
+		"Manual": "1",
+		"Prediction": "1",
+		"Twitter_ID": "28348340",
+		"Status": "Live"
+	},
+	{
+		"user.screen_name": "possiblesockpuppet",
+		"user_followers_count": "855",
+		"user_friends_count": "495",
+		"user_favourites_count": "4230",
+		"user_listed_count": "9",
+		"user_id": "759302335",
+		"document_id": "8.291698119881429E+18",
+		"gupta_terms_all": "9",
+		"gupta_terms_reduced": "3",
+		"gupta_terms_diff": "6",
+		"Manual": "1",
+		"Prediction": "0",
+		"Twitter_ID": "84367475",
+		"Status": "Live"
+	}
+]

@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content
+    <div class="container">
+        //- Have all the cool things showing where they need to be shown
+        include includes/search-bar.pug
+        if result
+            <p class="flow-text">Based on the account behavour @#{query} appears to be a bot or sock puppet.</p>     
+            <div class="divider"></div>
+            <p class="flow-text">View Bot Network</p>
+        else 
+            <p class="flow-text">The @#{query} account is still clean and hasn't shown up on our database.</p>
+            <a class="btn">Report bot</a>
+            <br>
+        
+        <div class="divider"></div>
+        <p class="flow-text">As in many countries, social media has been weaponised, with legions of bots and their human sock puppet masters pushing political agendas and trolling anyone who holds contrary views or opinions.</p>
+
+        <p class="flow-text">Search for more bot activity on <a href="https://botometer.iuni.iu.edu/">botometer</a>.</p>
+    </div>

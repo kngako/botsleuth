@@ -1,0 +1,92 @@
+doctype html
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        //- Set this style to only be on donate screen..
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.1.0/dist/leaflet.css"    integrity="sha512-wcw6ts8Anuw10Mzh9Ytw4pylW8+NAD4ch3lqm9lzAsTxg0GFeJgoAtxuCLREZSC5lUXdVyo/7yfsqFjQ4S+aKw==" crossorigin=""/>
+       
+        //- Import materialize.css
+        <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="/css/site.css">
+
+        //- Let browser know website is optimized for mobile
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="icon" href="/img/botsleuth-fav.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/botsleuth-fav.png">
+
+        block seo
+            <meta name="description" content='Weeding out the fakes to unmask Gupta bots and sock puppets.'>
+            <meta name="author" content="Fake News Hunters">
+            <meta name="keywords" content="botsleuth, Gupta, Zupta, Guptabot" />
+            <meta name=”robots” content=”noodp”>
+            <meta name="og:site_name" content="botsleuth" />
+            <meta name="og:title" content="Botsleuth - Weeding out the fakes to unmask Gupta bots and sock puppets." />
+            <meta name="og:url" content="https://whatdoesittake.kngako.com" />
+            <meta name="og:image" content="/img/botsleuth.png" />
+            
+            <meta name="twitter:title" content="Botsleuth - Weeding out the fakes to unmask Gupta bots and sock puppets.">      
+
+        block pageTitle 
+            <title>Botsleuth - Is it a bot? Is it a sockpuppet?</title>
+      
+    </head>
+    <body>
+
+        block header
+            <nav class="black">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="/" class="brand-logo">Botsleuth</a>
+                        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a class="black darken-4 waves-effect waves-light btn"  href="/about/">Tools</a></li>
+                            <li><a class="black darken-4 waves-effect waves-light btn"  href="/about/">Blog</a></li>
+                            <li><a class="black darken-4 waves-effect waves-light btn"  href="/about/">About</a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-menu">
+                            <li><a href="/about/">About</a></li>
+                            <li><a href="/about/">Tools</a></li>
+                            <li><a href="/about/">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+        <main>
+            block content        
+        </main>
+        <footer class="page-footer black">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">BotSleuth</h5>
+                <p class="grey-text text-lighten-4">A tool to weed bots and sock puppets on social media. Is it a bot? Is it a sock puppet?</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Contact Us</h5>
+                <ul>
+                    //- <li><a class="grey-text text-lighten-3" href="#!" target="_blank">Email</a></li>
+                    //- <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://twitter.com/botsleuth" target="_blank">Twitter</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Fact Checking Resources</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Tool</a></li>
+                    //-<li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">&copy; 2017 <a class="grey-text text-lighten-4" href="#!" target="_blank">fake news hunters</a>
+          </div>
+        </footer>
+        
+        //- Import jQuery before materialize.js
+        <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="/js/materialize.min.js"></script>
+        <script type="text/javascript" src="/js/index.js"></script>
+        //- block scripts TODO: Allow addition of page specific scripts...
+    </body>
+</html>

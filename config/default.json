@@ -1,0 +1,14 @@
+{
+    "server" : {
+        // Unique sercret key to be used on the express cookies...
+        "url": "http://botsleuth.kngako.com",
+        "port" : 7777
+    },
+    "twitter": {
+        "handle": "kpangako",
+        "consumer_key":"your_consumer_key_goes_here",
+        "consumer_secret":"your_consumer_secret_goes_here",
+        "access_token_key":"your_access_token_key_goes_here",
+        "access_token_secret":"your_access_token_secret_goes_here"
+    }
+}
